@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mening Mini Loyihalarim Portfolioli</title>
+    <style>
+      :root {
+        --bg-color: #0f172a;
+        --card-bg: #1e293b;
+        --text-color: #f8fafc;
+        --accent-color: #38bdf8;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      header h1 {
+        color: var(--accent-color);
+        margin-bottom: 10px;
+      }
+      header p {
+        color: #94a3b8;
+        font-size: 1.1rem;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+      }
+      .project-card {
+        background-color: var(--card-bg);
+        border: 1px solid #334155;
+        border-radius: 12px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        transition:
+          transform 0.2s,
+          box-shadow 0.2s;
+      }
+      .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.2);
+        border-color: var(--accent-color);
+      }
+      .project-card h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.4rem;
+        color: #fff;
+      }
+      .project-card p {
+        color: #94a3b8;
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .view-btn {
+        display: inline-block;
+        text-align: center;
+        background-color: var(--accent-color);
+        color: #0f172a;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 6px;
+        font-weight: bold;
+        transition: background 0.2s;
+      }
+      .view-btn:hover {
+        background-color: #7dd3fc;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mening HTML/CSS/JS Portfoliom</h1>
+      <p>
+        GitHub-ga yuklash uchun yaratilgan 10 ta kichik va foydali loyihalar
+        jamlanmasi
+      </p>
+    </header>
+
+    <main class="grid-container">
+      <!-- 1-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>1. Raqamli Soat</h3>
+          <p>
+            Dark mode uslubida, millisekundlargacha jonli ko'rsatib turadigan
+            zamonaviy soat.
+          </p>
+        </div>
+        <a
+          href="https://github.com/ulugbekovaslbek13/Digital_clock"
+          class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 2-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>2. To-Do Ro'yxati</h3>
+          <p>
+            Kundalik rejalarni qo'shish va bajarilganlarini o'chirish imkonini
+            beruvchi rejalashtiruvchi.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app306" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 3-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>3. Rang Generator</h3>
+          <p>
+            Tugma bosilganda sahna rangini HEX formatda tasodifiy o'zgartiruvchi
+            qiziqarli dastur.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_307" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 4-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>4. Hisoblagich (Counter)</h3>
+          <p>
+            Sonlarni oshirish, kamaytirish va boshlang'ich holatga qaytaruvchi
+            oddiy kliker dasturi.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_308" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 5-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>5. Kalkulyator</h3>
+          <p>
+            Asosiy arifmetik amallarni bajara oladigan, Grid texnologiyasida
+            terilgan mini kalkulyator.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_309" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 6-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>6. Soniya O'lchagich</h3>
+          <p>
+            Start, Stop va Reset funksiyalariga ega bo'lgan aniq ishlovchi
+            taymer dasturi.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_310" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 7-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>7. Modal Oyna</h3>
+          <p>
+            Veb-saytlarda ko'p uchraydigan, orqa fonni xiralashtirib ochiladigan
+            pop-up oyna effekti.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_311" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 8-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>8. Hikmatli So'zlar</h3>
+          <p>
+            Tugma bosilganda motivatsion va falsafiy iqtiboslarni massivdan
+            saralab chiqaruvchi sahifa.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_312" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 9-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>9. FAQ Akkordeon</h3>
+          <p>
+            Ko'p beriladigan savollarga mo'ljallangan, bosganda chiroyli
+            ochiladigan interaktiv blok.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_313" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+
+      <!-- 10-Loyiha -->
+      <div class="project-card">
+        <div>
+          <h3>10. Belgilar Sanoqi</h3>
+          <p>
+            Kiritilayotgan matndagi harflar va belgilarni real vaqt rejimida
+            hisoblab boruvchi darcha.
+          </p>
+        </div>
+        <a href="https://github.com/ulugbekovaslbek13/app_314" class="view-btn"
+          >Loyihani ko'rish</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
